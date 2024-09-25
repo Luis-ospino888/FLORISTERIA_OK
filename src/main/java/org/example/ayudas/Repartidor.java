@@ -112,15 +112,15 @@ public class Repartidor {
     // Sobrescribir el método toString
     @Override
     public String toString() {
-        return "Repartidor ID: " + idRepartidor +
-                ", Edad: " + edad +
-                ", Tipo de Vehículo: " + tipoVehiculo +
-                ", Dirección: " + direccion +
-                ", Teléfono: " + telefono +
-                ", Cliente: " + nombreCliente +
-                ", Calificación: " + calificacion +
-                ", Correo Electrónico: " + correoElectronico +
-                ", Salario: " + salario +
-                ", Empresa: " + empresa;
+        return "Datos del Repartidor ID: " + idRepartidor +"\n"+
+                ", Edad: " + edad +"\n"+
+                ", Tipo de Vehículo: " + tipoVehiculo +"\n"+
+                ", Dirección: " + direccion +"\n"+
+                ", Teléfono: " + telefono +"\n"+
+                ", Cliente: " + nombreCliente +"\n"+
+                ", Calificación: " + calificacion +"\n"+
+                ", Correo Electrónico: " + correoElectronico +"\n"+
+                ", Salario: " + salario +"\n"+
+                ", Empresa: " + empresa+"\n";
     }
 }

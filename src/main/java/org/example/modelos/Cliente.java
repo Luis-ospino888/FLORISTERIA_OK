@@ -111,15 +111,16 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente ID: " + id +
-                ", Nombre: " + nombreCliente +
-                ", Edad: " + edad +
-                ", Género: " + genero +
-                ", Dirección: " + direccion +
-                ", Teléfono: " + telefono +
-                ", Color Preferido: " + colorPreferido +
-                ", Flor Preferida: " + florPreferida +
-                ", Descripción Empaque: " + descripcionEmpaque +
-                ", A Domicilio: " + (aDomicilio ? "Sí" : "No");
+        return "Datos de Cliente:\n " +
+                "id=" + id +"\n"+
+                ", edad=" + edad +"\n"+
+                ", nombreCliente='" + nombreCliente + "\n"+
+                ", genero='" + genero + "\n"+
+                ", direccion='" + direccion + "\n"+
+                ", telefono='" + telefono + "\n"+
+                ", colorPreferido='" + colorPreferido + "\n"+
+                ", florPreferida='" + florPreferida + "\n"+
+                ", descripcionEmpaque='" + descripcionEmpaque + "\n"+
+                ", aDomicilio=" + aDomicilio;
     }
 }

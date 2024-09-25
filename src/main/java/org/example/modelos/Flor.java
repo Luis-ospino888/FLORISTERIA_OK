@@ -124,17 +124,16 @@ public class Flor {
     // Sobrescribir el método toString
     @Override
     public String toString() {
-        return "Flor ID: " + idFlor +
-                ", Número de Pétalos: " + numeroPetalos +
-                ", Precio Unitario: " + precioUnitario +
-                ", Fecha de Corte: " + fechaCorte +
-                ", Tipo de Flor: " + tipoFlor +
-                ", Color: " + color +
-                ", Longitud: " + longitud +
-                ", Estado de la Flor: " + estadoFlor +
-                ", Flora: " + flora +
-                ", Natural: " + (natural ? "Sí" : "No") +
-                ", Espinas: " + (espinas ? "Sí" : "No");
+        return "datos de Flor: ID: " + idFlor + "\n"+
+                ", Número de Pétalos: " + numeroPetalos +"\n"+
+                ", Precio Unitario: " + precioUnitario +"\n"+
+                ", Fecha de Corte: " + fechaCorte +"\n"+
+                ", Tipo de Flor: " + tipoFlor +"\n"+
+                ", Color: " + color +"\n"+
+                ", Longitud: " + longitud +"\n"+
+                ", Estado de la Flor: " + estadoFlor +"\n"+
+                ", Flora: " + flora +"\n"+
+                ", Natural: " + (natural ? "Sí" : "No") +"\n"+
+                ", Espinas: " + (espinas ? "Sí" : "No")+"\n";
     }
-
 }

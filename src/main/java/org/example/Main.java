@@ -21,11 +21,15 @@ public class Main {
 
         // Crear una lista para almacenar los clientes
         ArrayList<Cliente> listaClientes = new ArrayList<>();
+        ArrayList<Cliente> listaClientesVacia = new ArrayList<>();
         ArrayList<Flor> listaFlores = new ArrayList<>();
+        ArrayList<Flor> listaFloresVacia = new ArrayList<>();
         ArrayList<Repartidor> listaRepartidores = new ArrayList<>();
+        ArrayList<Repartidor> listaRepartidoresVacia = new ArrayList<>();
         ArrayList<Proveedor> listaProveedores = new ArrayList<>();
+        ArrayList<Proveedor> listaProveedoresVacia = new ArrayList<>();
 
-        // Crear 10 objetos Cliente y añadirlos a la lista
+        // Crear 10 objetos llenos de Cliente y añadirlos una lista
 
         listaClientes.add(new Cliente(1, 25, "Ana Martínez", "Femenino", "Calle del Sol 45", "600123456", "Rojo", "Tulipanes", "Caja decorada", true));
         listaClientes.add(new Cliente(2, 32, "Luis Fernández", "Masculino", "Avenida Libertad 23", "601987654", "Azul", "Rosas", "Bolsa reciclable", false));
@@ -38,7 +42,20 @@ public class Main {
         listaClientes.add(new Cliente(9, 50, "Isabel Vázquez", "Femenino", "Calle Central 34", "607567890", "Negro", "Violetas", "Caja elegante", false));
         listaClientes.add(new Cliente(10, 60, "Miguel Hernández", "Masculino", "Paseo de la Estrella 89", "608678901", "Gris", "Peonías", "Bolsa con logo", true));
 
-        // Crear 10 objetos Flor y añadirlos a la lista
+        // Crear 10 objetos vacios de Cliente y añadirlos a una lista
+
+        listaClientesVacia.add(new Cliente());
+        listaClientesVacia.add(new Cliente());
+        listaClientesVacia.add(new Cliente());
+        listaClientesVacia.add(new Cliente());
+        listaClientesVacia.add(new Cliente());
+        listaClientesVacia.add(new Cliente());
+        listaClientesVacia.add(new Cliente());
+        listaClientesVacia.add(new Cliente());
+        listaClientesVacia.add(new Cliente());
+        listaClientesVacia.add(new Cliente());
+
+        // Crear 10 objetos llenos de Flor y añadirlos a una lista
 
         listaFlores.add(new Flor(1, 8, 10, LocalDate.of(2023, 9, 1), "Rosa", "Rojo", "30 cm", "Fresca", "Europa", true, true));
         listaFlores.add(new Flor(2, 10, 15, LocalDate.of(2023, 9, 2), "Lirio", "Blanco", "40 cm", "Cortada", "Asia", true, false));
@@ -50,6 +67,19 @@ public class Main {
         listaFlores.add(new Flor(8, 9, 18, LocalDate.of(2023, 9, 8), "Azucena", "Blanco", "45 cm", "Fresca", "Egipto", true, false));
         listaFlores.add(new Flor(9, 7, 22, LocalDate.of(2023, 9, 9), "Peonía", "Rosa", "35 cm", "Cortada", "China", true, false));
         listaFlores.add(new Flor(10, 4, 5, LocalDate.of(2023, 9, 10), "Violeta", "Morado", "15 cm", "Fresca", "Francia", true, false));
+
+        // Crear 10 objetos vacios de Flor y añadirlos a una lista
+
+        listaFloresVacia.add(new Flor(null, null, null, null, null, null, null, null, null, true, false));
+        listaFloresVacia.add(new Flor(null, null, null, null, null, null, null, null, null, true, false));
+        listaFloresVacia.add(new Flor(null, null, null, null, null, null, null, null, null, true, false));
+        listaFloresVacia.add(new Flor(null, null, null, null, null, null, null, null, null, true, false));
+        listaFloresVacia.add(new Flor(null, null, null, null, null, null, null, null, null, true, false));
+        listaFloresVacia.add(new Flor(null, null, null, null, null, null, null, null, null, true, false));
+        listaFloresVacia.add(new Flor(null, null, null, null, null, null, null, null, null, true, false));
+        listaFloresVacia.add(new Flor(null, null, null, null, null, null, null, null, null, true, false));
+        listaFloresVacia.add(new Flor(null, null, null, null, null, null, null, null, null, true, false));
+        listaFloresVacia.add(new Flor(null, null, null, null, null, null, null, null, null, true, false));
 
         // Crear 10 objetos Repartidor y añadirlos a la lista
 
@@ -64,9 +94,21 @@ public class Main {
         listaRepartidores.add(new Repartidor(9, 50, "Camioneta", "Calle Central 34", "608567890", "Raúl Vázquez", 3, "raul.vazquez@correo.com", 2300, "Transporte Integral"));
         listaRepartidores.add(new Repartidor(10, 45, "Moto", "Paseo de la Estrella 89", "609678901", "Elena Hernández", 4, "elena.hernandez@correo.com", 1700, "Envíos Rápidos"));
 
-        // Crear 10 objetos Proveedor y añadirlos a la lista
+        // Crear 10 objetos vacios de Repartidor y añadirlos una lista
+
+        listaRepartidoresVacia.add(new Repartidor());
+        listaRepartidoresVacia.add(new Repartidor());
+        listaRepartidoresVacia.add(new Repartidor());
+        listaRepartidoresVacia.add(new Repartidor());
+        listaRepartidoresVacia.add(new Repartidor());
+        listaRepartidoresVacia.add(new Repartidor());
+        listaRepartidoresVacia.add(new Repartidor());
+        listaRepartidoresVacia.add(new Repartidor());
+        listaRepartidoresVacia.add(new Repartidor());
+        listaRepartidoresVacia.add(new Repartidor());
 
         // Crear 10 objetos Proveedor y añadirlos a la lista
+
         listaProveedores.add(new Proveedor(1, "Flores del Sol", "Calle Luna 45", "Rosas", 1000, "600123456", LocalDate.of(2023, 10, 1), 5, "Madrid", "Las flores más frescas"));
         listaProveedores.add(new Proveedor(2, "Jardines de la Reina", "Avenida Sol 23", "Tulipanes", 1500, "601987654", LocalDate.of(2023, 10, 2), 7, "Sevilla", "Cultivando belleza"));
         listaProveedores.add(new Proveedor(3, "Floristería López", "Calle Estrella 12", "Margaritas", 800, "602345678", LocalDate.of(2023, 10, 3), 4, "Valencia", "Flores con amor"));
@@ -78,27 +120,61 @@ public class Main {
         listaProveedores.add(new Proveedor(9, "Flores del Norte", "Calle Central 34", "Rosas", 2000, "608567890", LocalDate.of(2023, 10, 9), 9, "Santander", "Flores de calidad garantizada"));
         listaProveedores.add(new Proveedor(10, "EcoFlora", "Paseo de la Estrella 89", "Violetas", 700, "609678901", LocalDate.of(2023, 10, 10), 2, "Valladolid", "Naturaleza y frescura"));
 
+        // Crear 10 objetos vacios de Proveedor y añadirlos una lista
+
+        listaProveedoresVacia.add(new Proveedor());
+        listaProveedoresVacia.add(new Proveedor());
+        listaProveedoresVacia.add(new Proveedor());
+        listaProveedoresVacia.add(new Proveedor());
+        listaProveedoresVacia.add(new Proveedor());
+        listaProveedoresVacia.add(new Proveedor());
+        listaProveedoresVacia.add(new Proveedor());
+        listaProveedoresVacia.add(new Proveedor());
+        listaProveedoresVacia.add(new Proveedor());
+        listaProveedoresVacia.add(new Proveedor());
 
         // Mostrar los detalles de cada cliente usando el método toString
         for (Cliente cliente : listaClientes) {
             System.out.println(cliente.toString());
             System.out.println("-------------------------------------");
         }
+        // mostrar los detalles del objeto vacio de cliente: no es necesario otro metodo toString
+        for (Cliente cliente : listaClientesVacia) {
+            System.out.println(cliente.toString());
+            System.out.println("-------------------------------------");
+        }
+
         // Mostrar los detalles de cada flor usando el método toString
         for (Flor flor : listaFlores) {
             System.out.println(flor.toString());
             System.out.println("-------------------------------------");
         }
+        // Mostrar los detalles del objeto vacio de flor: no es necesario otro método toString
+        for (Flor flor : listaFloresVacia) {
+            System.out.println(flor.toString());
+            System.out.println("-------------------------------------");
+        }
+
         // Mostrar los detalles de cada repartidor usando el método toString
         for (Repartidor repartidor : listaRepartidores) {
             System.out.println(repartidor.toString());
             System.out.println("-------------------------------------");
         }
+        // Mostrar los detalles del objeto vacio de repartidor: no es necesario usar otro método toString
+        for (Repartidor repartidor : listaRepartidoresVacia) {
+            System.out.println(repartidor.toString());
+            System.out.println("-------------------------------------");
+        }
+
         // Mostrar los detalles de cada proveedor usando el método toString
         for (Proveedor proveedor : listaProveedores) {
             System.out.println(proveedor.toString());
             System.out.println("-------------------------------------");
         }
-
+        // Mostrar los detalles  del objeto vacio de proveedor: no es necesario usar otro método toString
+        for (Proveedor proveedor : listaProveedoresVacia) {
+            System.out.println(proveedor.toString());
+            System.out.println("-------------------------------------");
+        }
     }
 }

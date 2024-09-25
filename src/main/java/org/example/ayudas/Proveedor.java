@@ -114,15 +114,15 @@ public class Proveedor {
     // Sobrescribir el método toString
     @Override
     public String toString() {
-        return "Proveedor ID: " + idProveedor +
-                ", Nombre: " + nombreProveedor +
-                ", Dirección: " + direccionProveedor +
-                ", Producto: " + productoProveedor +
-                ", Cantidad Mensual de Flores: " + cantidadFloresMensual +
-                ", Teléfono: " + telefonoProveedor +
-                ", Fecha de Entrega: " + fechaEntrega +
-                ", Tiempo de Servicio: " + tiempoServicio + " años" +
-                ", Ciudad: " + ciudad +
-                ", Slogan: " + slogan;
+        return "Datos del Proveedor ID: " + idProveedor +"\n"+
+                ", Nombre: " + nombreProveedor +"\n"+
+                ", Dirección: " + direccionProveedor +"\n"+
+                ", Producto: " + productoProveedor +"\n"+
+                ", Cantidad Mensual de Flores: " + cantidadFloresMensual +"\n"+
+                ", Teléfono: " + telefonoProveedor +"\n"+
+                ", Fecha de Entrega: " + fechaEntrega +"\n"+
+                ", Tiempo de Servicio: " + tiempoServicio + " años" +"\n"+
+                ", Ciudad: " + ciudad +"\n"+
+                ", Slogan: " + slogan+"\n";
     }
 }
